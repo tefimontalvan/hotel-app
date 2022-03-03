@@ -35,14 +35,14 @@ export class HistoryController implements CrudController<History> {
   constructor(public service: HistoryService) {}
 
   @hasRoles(UserRole.ADMIN)
-  @UseGuards(JwtAuthGuard, RolesGuard)
+  @UseGuards(JwtAuthGuard)
   @Post('room')
   getHistoryRoom(@Body() room: RoomHistoryDto) {
     return this.service.getHistoryRoom(room);
   }
 
   @hasRoles(UserRole.ADMIN)
-  @UseGuards(JwtAuthGuard, RolesGuard)
+  @UseGuards(JwtAuthGuard)
   @Post('client')
   getHistoryClient(@Body() client: ClientHistoryDto) {
     return this.service.getHistoryClient(client);
