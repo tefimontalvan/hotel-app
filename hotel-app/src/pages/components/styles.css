@@ -1,0 +1,259 @@
+.customForm__form {
+  width: 500px;
+  background-color: #625943;
+  margin: 90px auto auto auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 11px 0px rgba(50, 50, 50, 0.05);
+  -moz-box-shadow: 4px 4px 11px 0px rgba(50, 50, 50, 0.05);
+  box-shadow: 4px 4px 11px 0px rgba(50, 50, 50, 0.05);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 250px;
+  margin-bottom: 20px;
+}
+
+.textField__input {
+  margin-bottom: 20px !important;
+  color: white;
+  display: grid !important;
+}
+
+.customForm__form-control {
+  margin-top: 10px !important;
+}
+
+.customForm__form-label {
+  margin-bottom: 10px !important;
+  color: white;
+}
+
+.radioGroup {
+  color: white;
+}
+
+.content > p {
+  color: #72706a;
+}
+
+.itemColor {
+  color: white;
+}
+
+.formComponent__buttons-group > Button {
+  background-color: #df2040;
+  color: white;
+}
+
+.buttonEdit {
+  margin-left: 10;
+  background-color: #482543;
+}
+
+.MuiIconButton-colorSecondary {
+  color: var(--light-green) !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--light-green) !important;
+}
+
+.to-do-list__container {
+  padding-bottom: 50px;
+}
+
+.to-do-list__container > h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #72706a;
+  font-size: 50px;
+}
+
+.to-do-list__tasks-wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.to-do-list__tasks-wrapper > .container {
+  margin: 40px;
+}
+
+.customForm__form > h1 {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  width: 245;
+  display: grid;
+  background-color: #625943;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.container > h3 {
+  font-size: 30px;
+}
+
+.itemComponent__buttons-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.item--description {
+  color: var(--font-standard-color);
+}
+
+.customForm__form > span {
+  color: var(--light-green);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.item--type {
+  width: fit-content;
+  height: auto;
+  background-color: var(--light-gray);
+  border-radius: 5px;
+  color: white;
+}
+
+.formComponent__buttons-group {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.title__h3 {
+  text-decoration: line-through;
+  font-size: 25px;
+  color: #72706a;
+  text-transform: uppercase;
+}
+
+.title__h3_incomplete {
+  font-size: 25px;
+  color: #72706a;
+  text-transform: uppercase;
+}
+
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
